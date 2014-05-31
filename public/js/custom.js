@@ -220,7 +220,7 @@ $(document).ready(function () {
 			'icon': image
 		}).click(function () {
 			$('#map_canvas').gmap('openInfoWindow', {
-				'content': '<h4>Eventify</h4><p><strong>Hyatt Regency Pune</strong><br>Weikfield IT Park, Nagar Road, Pune, India, 411014</p>'
+				'content': '<h4>DeccanRubyConf, 2014</h4><p><strong>Hyatt Regency Pune</strong><br>Weikfield IT Park, Nagar Road, Pune, India, 411014</p>'
 			}, this);
 		});
 	});
