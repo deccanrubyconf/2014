@@ -204,9 +204,9 @@ $(document).ready(function () {
 		}]
 	});
 	var image = {
-		url: 'images/marker.png', // Define the map marker file here
+		url: 'images/marker-orange.png', // Define the map marker file here
 		// This marker is 51 pixels wide by 63 pixels tall.
-		size: new google.maps.Size(51, 63),
+		size: new google.maps.Size(65, 54),
 		// The origin for this image is 0,0.
 		origin: new google.maps.Point(0, 0),
 		// The anchor for this image is the base of the flagpole at 26,63.
