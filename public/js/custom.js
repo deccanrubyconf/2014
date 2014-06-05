@@ -26,15 +26,19 @@ $(document).ready(function () {
 		}
 	});
 	//
-	$('#mainnav .nav a').click(function (e) {
+	$('#mainnav.nav a').click(function (e) {
+            if(e.target.getAttribute('class') == 'outgoing') {
+                window.location = e.target.href;
+            }
+            else {
 		e.preventDefault();
 		var des = $(this).attr('href');
-		if ($('.navbar').hasClass(
-			'in')) {
-			$('.navbar .btn-navbar').trigger(
-				'click');
+		if ($('.navbar').hasClass('in')) {
+		    $('.navbar .btn-navbar').trigger(
+				  'click');
+                    goToSectionID(des);
 		}
-		goToSectionID(des);
+            }
 	})
 
 	// Local Scroll //
