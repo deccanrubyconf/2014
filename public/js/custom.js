@@ -191,6 +191,8 @@ $(document).ready(function () {
 		'mapTypeControl': false,
 		'navigationControl': false,
 		'streetViewControl': false,
+                'controls': false,
+                'scrollwheel': false,
 		'styles': [{
 			stylers: [{
 				gamma: 0.60
